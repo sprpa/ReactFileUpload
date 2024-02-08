@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.gallery{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: scroll;
+  
+}
+
+
+.images{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.images img{
+  width: 100%;
+}
+/* App.css */
+
+/* Adjust styles as needed */
+/* App.css */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+/* Adjust styles as needed */
+/* App.css */
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.dropdown select {
+  width: 70%;
+}
+
+/* Adjust styles as needed */
+.image-container img{
+  height: 400px;
+  width: 100%;
+}
